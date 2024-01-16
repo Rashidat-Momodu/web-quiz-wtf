@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            margin-bottom: 2px; /* Optional: Add some space between the heading and the quiz container */
+        }
+    </style>
+</head>
+<body>
+    <h1>WEB BASED QUIZ</h1>
+    <div id="quiz-container">
+        <div id="question-container"></div>
+        <div id="answer-buttons"></div>
+        <div id="feedback-container"></div>
+        <div id="timer-container">Time Left: <span id="timer"></span></div>
+        <div id="score-container"></div>
+        <button id="next-button" class="btn" disabled>Next</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
